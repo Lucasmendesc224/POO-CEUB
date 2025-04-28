@@ -127,7 +127,7 @@ public class SistemaPedidos {
 
         System.out.println("Valor total do pedido: R$" + pedido.getValorTotal());
         
-        pedido.aplicarDesconto(10); // 10% de desconto
+        pedido.aplicarDesconto(10);
         System.out.println("Valor total com desconto: R$" + pedido.getValorTotal());
 
         pedido.atualizarStatus("Enviado");
